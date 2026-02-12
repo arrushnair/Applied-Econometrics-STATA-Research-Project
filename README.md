@@ -4,7 +4,7 @@ This repository contains **Stata code for panel data analysis**. Follow the step
 
 ---
 
-## 📌 Prerequisites
+## Prerequisites
 
 1. Ensure the dataset **PanelDataG03.xlsx** is present in your Stata working directory.
 2. Install the required Stata packages:
@@ -19,7 +19,7 @@ net install st0373, from(http://www.stata-journal.com/software/sj15-1)
 
 ---
 
-## 📊 Data Preparation
+## Data Preparation
 
 ### 1. Load the dataset
 - Import the Excel file `PanelDataG03.xlsx` (Sheet1)
@@ -42,7 +42,7 @@ xtset country_id Year
 
 ---
 
-## 📈 Analysis Workflow
+## Analysis Workflow
 
 ### Multicollinearity
 - Run Variance Inflation Factor (VIF) test *(Table 5)*
@@ -92,7 +92,7 @@ xtset country_id Year
 
 ---
 
-## ✅ Notes
+## Notes
 - Table numbers correspond to those in the associated research paper/report.
 - Ensure all dependencies are installed before running estimations to avoid errors.
 
